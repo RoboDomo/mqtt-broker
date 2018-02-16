@@ -1,0 +1,24 @@
+{
+  "name": "mqtt-broker",
+  "version": "1.0.0",
+  "description": "mqtt broker based upon mosca.",
+  "main": "mosca-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoboDomo/mqtt-broker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoboDomo/mqtt-broker/issues"
+  },
+  "homepage": "https://github.com/RoboDomo/mqtt-broker#readme",
+  "dependencies": {
+    "mosca": "^2.7.0",
+    "pino": "^4.11.0"
+  }
+}
