@@ -1,13 +1,13 @@
-var mosca = require('mosca');
+var mosca = require("mosca");
 
 module.exports = {
-  id: 'mymosca', // used to publish in the $SYS/<id> topicspace
+  id: "mymosca", // used to publish in the $SYS/<id> topicspace
   stats: false, // publish stats in the $SYS/<id> topicspace
   logger: {
-    level: 'debug'
+    level: "debug"
   },
   backend: {
-    type: 'mongodb',
+    type: "mongodb",
     url: "mongodb://localhost:27017/robodomo"
   },
   persistence: {
